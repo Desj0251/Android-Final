@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="intents.ca.edumedia.desj0251.opendoorsfinal.MainActivity">
+    <item
+        android:id="@+id/action_all_items"
+        android:title="Show All Buildings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_choose_category"
+        android:title="Choose a Category"
+        app:showAsAction="never" />
+    <group android:id="@+id/sort_options" android:checkableBehavior="single">
+        <item android:id="@+id/action_sort_name_asc"
+            android:title="Sort by Name (a-z)"
+            android:checked="false" />
+        <item android:id="@+id/action_sort_name_dsc"
+            android:title="Sort by Name (z-a)"
+            android:checked="false" />
+    </group>
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:title="action_about"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="always" />
+</menu>

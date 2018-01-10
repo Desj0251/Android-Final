@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Doors Open Ottawa</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_details">DetailsActivity</string>
+    <string-array name="categories">
+        <item>Religious</item>
+        <item>Embassies</item>
+        <item>Government</item>
+        <item>Functional</item>
+        <item>Galleries and Theatres</item>
+        <item>Academic Institutions</item>
+        <item>Sports and Leisure</item>
+        <item>Community and/or Care Centres</item>
+        <item>Business and/or Foundations</item>
+        <item>Museums, Archives and Historic Sites</item>
+        <item>Other</item>
+    </string-array>
+</resources>
